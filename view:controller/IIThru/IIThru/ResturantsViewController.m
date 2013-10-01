@@ -14,11 +14,10 @@
 
 @implementation ResturantsViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)init
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [super init];
     if (self) {
-        // Custom initialization
     }
     return self;
 }
@@ -26,14 +25,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
+    _numberOfResturants = 50;
+    _resturantNamesArray = [[NSMutableArray alloc] init];
+        for (int i=1; i<=_numberOfResturants; i++) {
+        [_resturantNamesArray addObject:[NSString stringWithFormat:@"Restaurant %i",i]];
+    }
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return 1;
 }
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 50;
+    return _numberOfResturants;
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
@@ -41,4 +44,15 @@
     resturantCell.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"IITHRU logo.png no fluff.png"]];
     return resturantCell;
 }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
+    if ([[segue identifier] isEqualToString:@"restaurantType"]) {
+        NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
+        resturantTypeViewController *destViewController = segue.destinationViewController;
+        NSIndexPath *index = [indexPaths objectAtIndex:0];
+        destViewController.navigationItem.title = _resturantNamesArray[index.row];
+    }
+}
+
 @end

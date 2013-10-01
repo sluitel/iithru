@@ -10,6 +10,8 @@
 		BB8ADB5717F4070300938638 /* IITHRU logo.png no fluff.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8ADB5617F4070300938638 /* IITHRU logo.png no fluff.png */; };
 		BB8ADB5A17F4130100938638 /* ResturantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8ADB5917F4130100938638 /* ResturantsViewController.m */; };
 		BB8ADB5D17F414A600938638 /* Resturants.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8ADB5C17F414A600938638 /* Resturants.m */; };
+		BBE751E317F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE751E217F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png */; };
+		BBE751E617F4EDF600B19964 /* resturantTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE751E517F4EDF600B19964 /* resturantTypeViewController.m */; };
 		BBF6936217F21E16008B1A9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF6936117F21E16008B1A9F /* Foundation.framework */; };
 		BBF6936417F21E16008B1A9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF6936317F21E16008B1A9F /* CoreGraphics.framework */; };
 		BBF6936617F21E16008B1A9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF6936517F21E16008B1A9F /* UIKit.framework */; };
@@ -43,6 +45,9 @@
 		BB8ADB5917F4130100938638 /* ResturantsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResturantsViewController.m; sourceTree = "<group>"; };
 		BB8ADB5B17F414A600938638 /* Resturants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resturants.h; sourceTree = "<group>"; };
 		BB8ADB5C17F414A600938638 /* Resturants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resturants.m; sourceTree = "<group>"; };
+		BBE751E217F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 917b5fc29d8bac42945b5be96ca61f06.png; sourceTree = "<group>"; };
+		BBE751E417F4EDF600B19964 /* resturantTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resturantTypeViewController.h; sourceTree = "<group>"; };
+		BBE751E517F4EDF600B19964 /* resturantTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resturantTypeViewController.m; sourceTree = "<group>"; };
 		BBF6935E17F21E16008B1A9F /* IIThru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IIThru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF6936117F21E16008B1A9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BBF6936317F21E16008B1A9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +131,8 @@
 				BBF6937017F21E16008B1A9F /* AppDelegate.h */,
 				BBF6937117F21E16008B1A9F /* AppDelegate.m */,
 				BBF6937317F21E16008B1A9F /* Main.storyboard */,
+				BBE751E417F4EDF600B19964 /* resturantTypeViewController.h */,
+				BBE751E517F4EDF600B19964 /* resturantTypeViewController.m */,
 				BB8ADB5B17F414A600938638 /* Resturants.h */,
 				BB8ADB5C17F414A600938638 /* Resturants.m */,
 				BB8ADB5817F4130100938638 /* ResturantsViewController.h */,
@@ -134,6 +141,7 @@
 				BBF6937717F21E16008B1A9F /* FirstViewController.m */,
 				BBF6937917F21E16008B1A9F /* SecondViewController.h */,
 				BBF6937A17F21E16008B1A9F /* SecondViewController.m */,
+				BBE751E217F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png */,
 				BB8ADB5617F4070300938638 /* IITHRU logo.png no fluff.png */,
 				BBF6937C17F21E16008B1A9F /* Images.xcassets */,
 				BBF6936817F21E16008B1A9F /* Supporting Files */,
@@ -248,6 +256,7 @@
 			files = (
 				BB8ADB5717F4070300938638 /* IITHRU logo.png no fluff.png in Resources */,
 				BBF6937D17F21E16008B1A9F /* Images.xcassets in Resources */,
+				BBE751E317F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png in Resources */,
 				BBF6936C17F21E16008B1A9F /* InfoPlist.strings in Resources */,
 				BBF6937517F21E16008B1A9F /* Main.storyboard in Resources */,
 			);
@@ -270,6 +279,7 @@
 			files = (
 				BB8ADB5D17F414A600938638 /* Resturants.m in Sources */,
 				BBF6937B17F21E16008B1A9F /* SecondViewController.m in Sources */,
+				BBE751E617F4EDF600B19964 /* resturantTypeViewController.m in Sources */,
 				BBF6937217F21E16008B1A9F /* AppDelegate.m in Sources */,
 				BBF6937817F21E16008B1A9F /* FirstViewController.m in Sources */,
 				BBF6936E17F21E16008B1A9F /* main.m in Sources */,

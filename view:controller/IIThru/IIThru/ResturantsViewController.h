@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "Resturants.h"
+#import "resturantTypeViewController.h"
 
 @interface ResturantsViewController : UICollectionViewController
+@property NSMutableArray *resturantNamesArray;
+@property int numberOfResturants;
 
 @end
