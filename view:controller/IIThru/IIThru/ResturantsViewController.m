@@ -25,11 +25,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _numberOfResturants = 50;
+    _numberOfResturants = 5;
     _resturantNamesArray = [[NSMutableArray alloc] init];
         for (int i=1; i<=_numberOfResturants; i++) {
         [_resturantNamesArray addObject:[NSString stringWithFormat:@"Restaurant %i",i]];
     }
+    [self setNeedsStatusBarAppearanceUpdate];
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
@@ -53,6 +54,10 @@
         NSIndexPath *index = [indexPaths objectAtIndex:0];
         destViewController.navigationItem.title = _resturantNamesArray[index.row];
     }
+}
+
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
 }
 
 @end

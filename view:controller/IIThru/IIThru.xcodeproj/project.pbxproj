@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB83711017FB536D00810261 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83710F17FB536D00810261 /* location.png */; };
+		BB83711217FB537400810261 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83711117FB537400810261 /* star.png */; };
+		BB83711417FB537B00810261 /* fork & knife.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83711317FB537B00810261 /* fork & knife.png */; };
+		BB83711617FB538200810261 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83711517FB538200810261 /* settings.png */; };
+		BB83711817FC011C00810261 /* restaurants icon_mcdonalds.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83711717FC011C00810261 /* restaurants icon_mcdonalds.png */; };
+		BB83711B17FC01B900810261 /* RestaurantTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB83711A17FC01B900810261 /* RestaurantTypeCell.m */; };
+		BB83711D17FC936E00810261 /* User_man_male_profile_account_person_people_human_card_add_login.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83711C17FC936E00810261 /* User_man_male_profile_account_person_people_human_card_add_login.png */; };
+		BB83711F17FC943500810261 /* User.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83711E17FC943500810261 /* User.png */; };
+		BB83712117FC960500810261 /* User login.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83712017FC960500810261 /* User login.png */; };
+		BB83712317FC96ED00810261 /* Hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83712217FC96ED00810261 /* Hamburger.png */; };
+		BB83712517FC97EC00810261 /* Dating.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83712417FC97EC00810261 /* Dating.png */; };
 		BB8ADB5717F4070300938638 /* IITHRU logo.png no fluff.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8ADB5617F4070300938638 /* IITHRU logo.png no fluff.png */; };
 		BB8ADB5A17F4130100938638 /* ResturantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8ADB5917F4130100938638 /* ResturantsViewController.m */; };
 		BB8ADB5D17F414A600938638 /* Resturants.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8ADB5C17F414A600938638 /* Resturants.m */; };
 		BBE751E317F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE751E217F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png */; };
 		BBE751E617F4EDF600B19964 /* resturantTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE751E517F4EDF600B19964 /* resturantTypeViewController.m */; };
+		BBEFC620180494AF00C36000 /* rsz_mcdonalds_stores_and_more_013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBEFC61F180494AF00C36000 /* rsz_mcdonalds_stores_and_more_013.jpg */; };
 		BBF6936217F21E16008B1A9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF6936117F21E16008B1A9F /* Foundation.framework */; };
 		BBF6936417F21E16008B1A9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF6936317F21E16008B1A9F /* CoreGraphics.framework */; };
 		BBF6936617F21E16008B1A9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF6936517F21E16008B1A9F /* UIKit.framework */; };
@@ -40,6 +52,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB83710F17FB536D00810261 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		BB83711117FB537400810261 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		BB83711317FB537B00810261 /* fork & knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fork & knife.png"; sourceTree = "<group>"; };
+		BB83711517FB538200810261 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		BB83711717FC011C00810261 /* restaurants icon_mcdonalds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restaurants icon_mcdonalds.png"; sourceTree = "<group>"; };
+		BB83711917FC01B900810261 /* RestaurantTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantTypeCell.h; sourceTree = "<group>"; };
+		BB83711A17FC01B900810261 /* RestaurantTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantTypeCell.m; sourceTree = "<group>"; };
+		BB83711C17FC936E00810261 /* User_man_male_profile_account_person_people_human_card_add_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User_man_male_profile_account_person_people_human_card_add_login.png; sourceTree = "<group>"; };
+		BB83711E17FC943500810261 /* User.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User.png; sourceTree = "<group>"; };
+		BB83712017FC960500810261 /* User login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User login.png"; sourceTree = "<group>"; };
+		BB83712217FC96ED00810261 /* Hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hamburger.png; sourceTree = "<group>"; };
+		BB83712417FC97EC00810261 /* Dating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dating.png; sourceTree = "<group>"; };
 		BB8ADB5617F4070300938638 /* IITHRU logo.png no fluff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IITHRU logo.png no fluff.png"; sourceTree = "<group>"; };
 		BB8ADB5817F4130100938638 /* ResturantsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResturantsViewController.h; sourceTree = "<group>"; };
 		BB8ADB5917F4130100938638 /* ResturantsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResturantsViewController.m; sourceTree = "<group>"; };
@@ -48,6 +72,7 @@
 		BBE751E217F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 917b5fc29d8bac42945b5be96ca61f06.png; sourceTree = "<group>"; };
 		BBE751E417F4EDF600B19964 /* resturantTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resturantTypeViewController.h; sourceTree = "<group>"; };
 		BBE751E517F4EDF600B19964 /* resturantTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resturantTypeViewController.m; sourceTree = "<group>"; };
+		BBEFC61F180494AF00C36000 /* rsz_mcdonalds_stores_and_more_013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rsz_mcdonalds_stores_and_more_013.jpg; sourceTree = "<group>"; };
 		BBF6935E17F21E16008B1A9F /* IIThru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IIThru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF6936117F21E16008B1A9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BBF6936317F21E16008B1A9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,6 +156,8 @@
 				BBF6937017F21E16008B1A9F /* AppDelegate.h */,
 				BBF6937117F21E16008B1A9F /* AppDelegate.m */,
 				BBF6937317F21E16008B1A9F /* Main.storyboard */,
+				BB83711917FC01B900810261 /* RestaurantTypeCell.h */,
+				BB83711A17FC01B900810261 /* RestaurantTypeCell.m */,
 				BBE751E417F4EDF600B19964 /* resturantTypeViewController.h */,
 				BBE751E517F4EDF600B19964 /* resturantTypeViewController.m */,
 				BB8ADB5B17F414A600938638 /* Resturants.h */,
@@ -143,7 +170,18 @@
 				BBF6937A17F21E16008B1A9F /* SecondViewController.m */,
 				BBE751E217F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png */,
 				BB8ADB5617F4070300938638 /* IITHRU logo.png no fluff.png */,
+				BB83712017FC960500810261 /* User login.png */,
+				BB83712417FC97EC00810261 /* Dating.png */,
+				BB83712217FC96ED00810261 /* Hamburger.png */,
+				BB83710F17FB536D00810261 /* location.png */,
 				BBF6937C17F21E16008B1A9F /* Images.xcassets */,
+				BB83711E17FC943500810261 /* User.png */,
+				BBEFC61F180494AF00C36000 /* rsz_mcdonalds_stores_and_more_013.jpg */,
+				BB83711117FB537400810261 /* star.png */,
+				BB83711317FB537B00810261 /* fork & knife.png */,
+				BB83711C17FC936E00810261 /* User_man_male_profile_account_person_people_human_card_add_login.png */,
+				BB83711517FB538200810261 /* settings.png */,
+				BB83711717FC011C00810261 /* restaurants icon_mcdonalds.png */,
 				BBF6936817F21E16008B1A9F /* Supporting Files */,
 			);
 			path = IIThru;
@@ -254,10 +292,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB83712117FC960500810261 /* User login.png in Resources */,
+				BB83711417FB537B00810261 /* fork & knife.png in Resources */,
 				BB8ADB5717F4070300938638 /* IITHRU logo.png no fluff.png in Resources */,
 				BBF6937D17F21E16008B1A9F /* Images.xcassets in Resources */,
+				BB83711D17FC936E00810261 /* User_man_male_profile_account_person_people_human_card_add_login.png in Resources */,
 				BBE751E317F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png in Resources */,
+				BB83712517FC97EC00810261 /* Dating.png in Resources */,
 				BBF6936C17F21E16008B1A9F /* InfoPlist.strings in Resources */,
+				BB83711F17FC943500810261 /* User.png in Resources */,
+				BB83711217FB537400810261 /* star.png in Resources */,
+				BB83712317FC96ED00810261 /* Hamburger.png in Resources */,
+				BB83711617FB538200810261 /* settings.png in Resources */,
+				BB83711017FB536D00810261 /* location.png in Resources */,
+				BBEFC620180494AF00C36000 /* rsz_mcdonalds_stores_and_more_013.jpg in Resources */,
+				BB83711817FC011C00810261 /* restaurants icon_mcdonalds.png in Resources */,
 				BBF6937517F21E16008B1A9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +328,7 @@
 			files = (
 				BB8ADB5D17F414A600938638 /* Resturants.m in Sources */,
 				BBF6937B17F21E16008B1A9F /* SecondViewController.m in Sources */,
+				BB83711B17FC01B900810261 /* RestaurantTypeCell.m in Sources */,
 				BBE751E617F4EDF600B19964 /* resturantTypeViewController.m in Sources */,
 				BBF6937217F21E16008B1A9F /* AppDelegate.m in Sources */,
 				BBF6937817F21E16008B1A9F /* FirstViewController.m in Sources */,
