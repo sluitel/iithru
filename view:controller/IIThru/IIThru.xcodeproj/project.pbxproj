@@ -24,6 +24,9 @@
 		BBE751E317F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE751E217F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png */; };
 		BBE751E617F4EDF600B19964 /* resturantTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE751E517F4EDF600B19964 /* resturantTypeViewController.m */; };
 		BBEFC620180494AF00C36000 /* rsz_mcdonalds_stores_and_more_013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBEFC61F180494AF00C36000 /* rsz_mcdonalds_stores_and_more_013.jpg */; };
+		BBEFC622180498F400C36000 /* red_star.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEFC621180498F400C36000 /* red_star.png */; };
+		BBEFC624180498FE00C36000 /* whitestar.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEFC623180498FE00C36000 /* whitestar.png */; };
+		BBEFC62718049EC000C36000 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEFC62618049EC000C36000 /* MapViewController.m */; };
 		BBF6936217F21E16008B1A9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF6936117F21E16008B1A9F /* Foundation.framework */; };
 		BBF6936417F21E16008B1A9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF6936317F21E16008B1A9F /* CoreGraphics.framework */; };
 		BBF6936617F21E16008B1A9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF6936517F21E16008B1A9F /* UIKit.framework */; };
@@ -73,6 +76,10 @@
 		BBE751E417F4EDF600B19964 /* resturantTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resturantTypeViewController.h; sourceTree = "<group>"; };
 		BBE751E517F4EDF600B19964 /* resturantTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resturantTypeViewController.m; sourceTree = "<group>"; };
 		BBEFC61F180494AF00C36000 /* rsz_mcdonalds_stores_and_more_013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rsz_mcdonalds_stores_and_more_013.jpg; sourceTree = "<group>"; };
+		BBEFC621180498F400C36000 /* red_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_star.png; sourceTree = "<group>"; };
+		BBEFC623180498FE00C36000 /* whitestar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitestar.png; sourceTree = "<group>"; };
+		BBEFC62518049EC000C36000 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		BBEFC62618049EC000C36000 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		BBF6935E17F21E16008B1A9F /* IIThru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IIThru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF6936117F21E16008B1A9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BBF6936317F21E16008B1A9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -165,6 +172,8 @@
 				BB8ADB5817F4130100938638 /* ResturantsViewController.h */,
 				BB8ADB5917F4130100938638 /* ResturantsViewController.m */,
 				BBF6937617F21E16008B1A9F /* FirstViewController.h */,
+				BBEFC62518049EC000C36000 /* MapViewController.h */,
+				BBEFC62618049EC000C36000 /* MapViewController.m */,
 				BBF6937717F21E16008B1A9F /* FirstViewController.m */,
 				BBF6937917F21E16008B1A9F /* SecondViewController.h */,
 				BBF6937A17F21E16008B1A9F /* SecondViewController.m */,
@@ -173,6 +182,8 @@
 				BB83712017FC960500810261 /* User login.png */,
 				BB83712417FC97EC00810261 /* Dating.png */,
 				BB83712217FC96ED00810261 /* Hamburger.png */,
+				BBEFC621180498F400C36000 /* red_star.png */,
+				BBEFC623180498FE00C36000 /* whitestar.png */,
 				BB83710F17FB536D00810261 /* location.png */,
 				BBF6937C17F21E16008B1A9F /* Images.xcassets */,
 				BB83711E17FC943500810261 /* User.png */,
@@ -299,9 +310,11 @@
 				BB83711D17FC936E00810261 /* User_man_male_profile_account_person_people_human_card_add_login.png in Resources */,
 				BBE751E317F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png in Resources */,
 				BB83712517FC97EC00810261 /* Dating.png in Resources */,
+				BBEFC622180498F400C36000 /* red_star.png in Resources */,
 				BBF6936C17F21E16008B1A9F /* InfoPlist.strings in Resources */,
 				BB83711F17FC943500810261 /* User.png in Resources */,
 				BB83711217FB537400810261 /* star.png in Resources */,
+				BBEFC624180498FE00C36000 /* whitestar.png in Resources */,
 				BB83712317FC96ED00810261 /* Hamburger.png in Resources */,
 				BB83711617FB538200810261 /* settings.png in Resources */,
 				BB83711017FB536D00810261 /* location.png in Resources */,
@@ -329,6 +342,7 @@
 				BB8ADB5D17F414A600938638 /* Resturants.m in Sources */,
 				BBF6937B17F21E16008B1A9F /* SecondViewController.m in Sources */,
 				BB83711B17FC01B900810261 /* RestaurantTypeCell.m in Sources */,
+				BBEFC62718049EC000C36000 /* MapViewController.m in Sources */,
 				BBE751E617F4EDF600B19964 /* resturantTypeViewController.m in Sources */,
 				BBF6937217F21E16008B1A9F /* AppDelegate.m in Sources */,
 				BBF6937817F21E16008B1A9F /* FirstViewController.m in Sources */,
