@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB1BB18F1818FAD6001F4A28 /* nigerian-foods-and-recipes.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BB1BB18E1818FAD6001F4A28 /* nigerian-foods-and-recipes.jpeg */; };
+		BB1BB1921818FCEC001F4A28 /* FoodDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1BB1911818FCEC001F4A28 /* FoodDescriptionViewController.m */; };
+		BB1BB1951818FFFA001F4A28 /* IIThru.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB1BB1931818FFFA001F4A28 /* IIThru.xcdatamodeld */; };
+		BB1BB19818190134001F4A28 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1BB19718190134001F4A28 /* Cart.m */; };
+		BB4605001818DE0B00E67A72 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4604FF1818DE0B00E67A72 /* MenuViewController.m */; };
 		BB83711017FB536D00810261 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83710F17FB536D00810261 /* location.png */; };
 		BB83711217FB537400810261 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83711117FB537400810261 /* star.png */; };
 		BB83711417FB537B00810261 /* fork & knife.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83711317FB537B00810261 /* fork & knife.png */; };
@@ -55,6 +60,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB1BB18E1818FAD6001F4A28 /* nigerian-foods-and-recipes.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nigerian-foods-and-recipes.jpeg"; sourceTree = "<group>"; };
+		BB1BB1901818FCEC001F4A28 /* FoodDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDescriptionViewController.h; sourceTree = "<group>"; };
+		BB1BB1911818FCEC001F4A28 /* FoodDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDescriptionViewController.m; sourceTree = "<group>"; };
+		BB1BB1941818FFFA001F4A28 /* IIThru.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IIThru.xcdatamodel; sourceTree = "<group>"; };
+		BB1BB19618190134001F4A28 /* Cart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cart.h; sourceTree = "<group>"; };
+		BB1BB19718190134001F4A28 /* Cart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cart.m; sourceTree = "<group>"; };
+		BB4604FE1818DE0B00E67A72 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		BB4604FF1818DE0B00E67A72 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		BB83710F17FB536D00810261 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
 		BB83711117FB537400810261 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		BB83711317FB537B00810261 /* fork & knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fork & knife.png"; sourceTree = "<group>"; };
@@ -162,7 +175,14 @@
 			children = (
 				BBF6937017F21E16008B1A9F /* AppDelegate.h */,
 				BBF6937117F21E16008B1A9F /* AppDelegate.m */,
+				BB1BB1931818FFFA001F4A28 /* IIThru.xcdatamodeld */,
+				BB1BB19618190134001F4A28 /* Cart.h */,
+				BB1BB19718190134001F4A28 /* Cart.m */,
 				BBF6937317F21E16008B1A9F /* Main.storyboard */,
+				BB1BB1901818FCEC001F4A28 /* FoodDescriptionViewController.h */,
+				BB1BB1911818FCEC001F4A28 /* FoodDescriptionViewController.m */,
+				BB4604FE1818DE0B00E67A72 /* MenuViewController.h */,
+				BB4604FF1818DE0B00E67A72 /* MenuViewController.m */,
 				BB83711917FC01B900810261 /* RestaurantTypeCell.h */,
 				BB83711A17FC01B900810261 /* RestaurantTypeCell.m */,
 				BBE751E417F4EDF600B19964 /* resturantTypeViewController.h */,
@@ -176,6 +196,7 @@
 				BBEFC62618049EC000C36000 /* MapViewController.m */,
 				BBF6937717F21E16008B1A9F /* FirstViewController.m */,
 				BBF6937917F21E16008B1A9F /* SecondViewController.h */,
+				BB1BB18E1818FAD6001F4A28 /* nigerian-foods-and-recipes.jpeg */,
 				BBF6937A17F21E16008B1A9F /* SecondViewController.m */,
 				BBE751E217F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png */,
 				BB8ADB5617F4070300938638 /* IITHRU logo.png no fluff.png */,
@@ -321,6 +342,7 @@
 				BBEFC620180494AF00C36000 /* rsz_mcdonalds_stores_and_more_013.jpg in Resources */,
 				BB83711817FC011C00810261 /* restaurants icon_mcdonalds.png in Resources */,
 				BBF6937517F21E16008B1A9F /* Main.storyboard in Resources */,
+				BB1BB18F1818FAD6001F4A28 /* nigerian-foods-and-recipes.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,15 +361,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB1BB19818190134001F4A28 /* Cart.m in Sources */,
 				BB8ADB5D17F414A600938638 /* Resturants.m in Sources */,
 				BBF6937B17F21E16008B1A9F /* SecondViewController.m in Sources */,
 				BB83711B17FC01B900810261 /* RestaurantTypeCell.m in Sources */,
 				BBEFC62718049EC000C36000 /* MapViewController.m in Sources */,
 				BBE751E617F4EDF600B19964 /* resturantTypeViewController.m in Sources */,
+				BB1BB1921818FCEC001F4A28 /* FoodDescriptionViewController.m in Sources */,
 				BBF6937217F21E16008B1A9F /* AppDelegate.m in Sources */,
 				BBF6937817F21E16008B1A9F /* FirstViewController.m in Sources */,
+				BB1BB1951818FFFA001F4A28 /* IIThru.xcdatamodeld in Sources */,
 				BBF6936E17F21E16008B1A9F /* main.m in Sources */,
 				BB8ADB5A17F4130100938638 /* ResturantsViewController.m in Sources */,
+				BB4605001818DE0B00E67A72 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +594,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB1BB1931818FFFA001F4A28 /* IIThru.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB1BB1941818FFFA001F4A28 /* IIThru.xcdatamodel */,
+			);
+			currentVersion = BB1BB1941818FFFA001F4A28 /* IIThru.xcdatamodel */;
+			path = IIThru.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BBF6935617F21E16008B1A9F /* Project object */;
 }
