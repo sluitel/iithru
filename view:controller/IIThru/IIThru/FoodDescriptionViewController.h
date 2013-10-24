@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
+#import "AppDelegate.h"
+#import "Cart.h"
 
 @interface FoodDescriptionViewController : UIViewController
 
@@ -16,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UITextView *foodDescriptionTextField;
 - (IBAction)iWantItButtonPressed:(id)sender;
 @property (strong, nonatomic) NSString *foodName;
+@property (retain, nonatomic) AppDelegate *appDelegate;
 
 
 @end

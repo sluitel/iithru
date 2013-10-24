@@ -14,27 +14,25 @@
 
 @implementation FoodDescriptionViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	_appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 - (IBAction)iWantItButtonPressed:(id)sender {
+    NSManagedObjectContext *context = [_appDelegate managedObjectContext];
+    Cart *detail = [NSEntityDescription insertNewObjectForEntityForName:@"Cart"
+                                                      inManagedObjectContext:context];
+    detail.foodName = _foodName;
+    detail.quantity = @1;
+    detail.price = @9.8;
+    
+    NSError *error;
+    if (![context save:&error]) {
+        NSLog(@"Error, Fool!");
+    }
+
 }
 @end
