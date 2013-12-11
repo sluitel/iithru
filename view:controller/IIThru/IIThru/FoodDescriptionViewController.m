@@ -33,6 +33,8 @@
     if (![context save:&error]) {
         NSLog(@"Error, Fool!");
     }
+    
+    [self dismissViewControllerAnimated:YES completion:Nil];
 
 }
 @end

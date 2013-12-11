@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _foodNameArray = [[NSMutableArray alloc] init];
+    _foodNameArray = [[NSMutableArray alloc] initWithObjects:@"Original Recepie", @"Doublicious", @"Mac & Cheese", @"Chocolate Chip Cake", nil];
     _priceArray = [[NSMutableArray alloc] init];
     _quantityArray = [[NSMutableArray alloc] init];
 	_appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
@@ -31,18 +31,18 @@
     NSMutableArray *results = [[context executeFetchRequest:request
                                                       error:&error] mutableCopy];
     [self setArray:results];
-    for (int i=0; i<sizeof(_array); i++) {
-        Cart *info = [_array lastObject];
-        //NSLog(info.foodName);
-        NSString *temp = info.foodName;
-        if (info.foodName != nil ) {
-            [_foodNameArray addObject:info.foodName];
-//            [_priceArray addObject:info.price];
-//            [_quantityArray addObject:info.quantity];
-
-        }
-        
-    }
+//    for (int i=0; i<sizeof(_array); i++) {
+//        Cart *info = [_array lastObject];
+//        //NSLog(info.foodName);
+//        //NSString *temp = info.foodName;
+//       // if (info.foodName != nil ) {
+// //           [_foodNameArray addObject:info.foodName];
+////            [_priceArray addObject:info.price];
+////            [_quantityArray addObject:info.quantity];
+//
+//       // }
+//        
+//    }
 
 }
 
@@ -80,13 +80,13 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 5;
+    return 4;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"CartCell"];
-    cell.textLabel.text = @"Sample Food";//_foodNameArray[indexPath.row];
+    cell.textLabel.text = _foodNameArray[indexPath.row];
     return cell;
 }
 
@@ -98,7 +98,7 @@
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    return @"McDonald's";
+    return @"KFC";
 }
 
 //-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {

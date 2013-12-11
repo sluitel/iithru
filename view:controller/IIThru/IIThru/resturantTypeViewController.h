@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RestaurantTypeCell.h"
 
 @interface resturantTypeViewController : UITableViewController
+@property (strong, nonatomic) NSMutableArray *restaurants;
 
 @end

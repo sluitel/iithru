@@ -13,6 +13,32 @@
 		BB1BB19818190134001F4A28 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1BB19718190134001F4A28 /* Cart.m */; };
 		BB1BB19B1819068E001F4A28 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1BB19A1819068E001F4A28 /* AccountViewController.m */; };
 		BB4605001818DE0B00E67A72 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4604FF1818DE0B00E67A72 /* MenuViewController.m */; };
+		BB59D0C9183C053900A79E88 /* pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB59D0BB183C053900A79E88 /* pic1.png */; };
+		BB59D0CA183C053900A79E88 /* pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB59D0BC183C053900A79E88 /* pic2.png */; };
+		BB59D0CB183C053900A79E88 /* pic3.png in Resources */ = {isa = PBXBuildFile; fileRef = BB59D0BD183C053900A79E88 /* pic3.png */; };
+		BB59D0CC183C053900A79E88 /* pic4.png in Resources */ = {isa = PBXBuildFile; fileRef = BB59D0BE183C053900A79E88 /* pic4.png */; };
+		BB59D0CD183C053900A79E88 /* pic5.png in Resources */ = {isa = PBXBuildFile; fileRef = BB59D0BF183C053900A79E88 /* pic5.png */; };
+		BB59D0CE183C053900A79E88 /* pic6.png in Resources */ = {isa = PBXBuildFile; fileRef = BB59D0C0183C053900A79E88 /* pic6.png */; };
+		BB59D0CF183C053900A79E88 /* pic7.png in Resources */ = {isa = PBXBuildFile; fileRef = BB59D0C1183C053900A79E88 /* pic7.png */; };
+		BB59D0D0183C053900A79E88 /* pic8.png in Resources */ = {isa = PBXBuildFile; fileRef = BB59D0C2183C053900A79E88 /* pic8.png */; };
+		BB59D0D1183C053900A79E88 /* pic9.png in Resources */ = {isa = PBXBuildFile; fileRef = BB59D0C3183C053900A79E88 /* pic9.png */; };
+		BB59D0D2183C053900A79E88 /* pic10.png in Resources */ = {isa = PBXBuildFile; fileRef = BB59D0C4183C053900A79E88 /* pic10.png */; };
+		BB59D0D3183C053900A79E88 /* pic11.png in Resources */ = {isa = PBXBuildFile; fileRef = BB59D0C5183C053900A79E88 /* pic11.png */; };
+		BB59D0D4183C053900A79E88 /* pic12.png in Resources */ = {isa = PBXBuildFile; fileRef = BB59D0C6183C053900A79E88 /* pic12.png */; };
+		BB59D0D5183C053900A79E88 /* pic13.png in Resources */ = {isa = PBXBuildFile; fileRef = BB59D0C7183C053900A79E88 /* pic13.png */; };
+		BB59D0D6183C053900A79E88 /* pic0.png in Resources */ = {isa = PBXBuildFile; fileRef = BB59D0C8183C053900A79E88 /* pic0.png */; };
+		BB64B0721822E8E3003CF597 /* placesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB64B0711822E8E3003CF597 /* placesViewController.m */; };
+		BB64B0761822E95F003CF597 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BB64B0741822E95F003CF597 /* CustomAnnotation.m */; };
+		BB64B0781822ECC3003CF597 /* Restaurants.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB64B0771822ECC3003CF597 /* Restaurants.plist */; };
+		BB663B52183F4DD800EC814D /* kfc-coupons.png in Resources */ = {isa = PBXBuildFile; fileRef = BB663B51183F4DD800EC814D /* kfc-coupons.png */; };
+		BB663B54183F616000EC814D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB663B53183F616000EC814D /* MapKit.framework */; };
+		BB663B56183F617100EC814D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB663B55183F617100EC814D /* CoreLocation.framework */; };
+		BB663B5D183F634500EC814D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB663B57183F634500EC814D /* AddressBook.framework */; };
+		BB663B5E183F634500EC814D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB663B58183F634500EC814D /* AddressBookUI.framework */; };
+		BB663B5F183F634500EC814D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB663B59183F634500EC814D /* CoreData.framework */; };
+		BB663B60183F634500EC814D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB663B5A183F634500EC814D /* CoreTelephony.framework */; };
+		BB663B61183F634500EC814D /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB663B5B183F634500EC814D /* EventKit.framework */; };
+		BB663B62183F634500EC814D /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB663B5C183F634500EC814D /* EventKitUI.framework */; };
 		BB83711017FB536D00810261 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83710F17FB536D00810261 /* location.png */; };
 		BB83711217FB537400810261 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83711117FB537400810261 /* star.png */; };
 		BB83711417FB537B00810261 /* fork & knife.png in Resources */ = {isa = PBXBuildFile; fileRef = BB83711317FB537B00810261 /* fork & knife.png */; };
@@ -72,6 +98,35 @@
 		BB1BB19A1819068E001F4A28 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
 		BB4604FE1818DE0B00E67A72 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		BB4604FF1818DE0B00E67A72 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		BB59D0BB183C053900A79E88 /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic1.png; sourceTree = "<group>"; };
+		BB59D0BC183C053900A79E88 /* pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic2.png; sourceTree = "<group>"; };
+		BB59D0BD183C053900A79E88 /* pic3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic3.png; sourceTree = "<group>"; };
+		BB59D0BE183C053900A79E88 /* pic4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic4.png; sourceTree = "<group>"; };
+		BB59D0BF183C053900A79E88 /* pic5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic5.png; sourceTree = "<group>"; };
+		BB59D0C0183C053900A79E88 /* pic6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic6.png; sourceTree = "<group>"; };
+		BB59D0C1183C053900A79E88 /* pic7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic7.png; sourceTree = "<group>"; };
+		BB59D0C2183C053900A79E88 /* pic8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic8.png; sourceTree = "<group>"; };
+		BB59D0C3183C053900A79E88 /* pic9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic9.png; sourceTree = "<group>"; };
+		BB59D0C4183C053900A79E88 /* pic10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic10.png; sourceTree = "<group>"; };
+		BB59D0C5183C053900A79E88 /* pic11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic11.png; sourceTree = "<group>"; };
+		BB59D0C6183C053900A79E88 /* pic12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic12.png; sourceTree = "<group>"; };
+		BB59D0C7183C053900A79E88 /* pic13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic13.png; sourceTree = "<group>"; };
+		BB59D0C8183C053900A79E88 /* pic0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic0.png; sourceTree = "<group>"; };
+		BB64B0701822E8E3003CF597 /* placesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = placesViewController.h; sourceTree = "<group>"; };
+		BB64B0711822E8E3003CF597 /* placesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = placesViewController.m; sourceTree = "<group>"; };
+		BB64B0731822E95F003CF597 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		BB64B0741822E95F003CF597 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		BB64B0751822E95F003CF597 /* registerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerViewController.h; sourceTree = "<group>"; };
+		BB64B0771822ECC3003CF597 /* Restaurants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Restaurants.plist; sourceTree = "<group>"; };
+		BB663B51183F4DD800EC814D /* kfc-coupons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kfc-coupons.png"; sourceTree = "<group>"; };
+		BB663B53183F616000EC814D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BB663B55183F617100EC814D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BB663B57183F634500EC814D /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		BB663B58183F634500EC814D /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		BB663B59183F634500EC814D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BB663B5A183F634500EC814D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BB663B5B183F634500EC814D /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		BB663B5C183F634500EC814D /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 		BB83710F17FB536D00810261 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
 		BB83711117FB537400810261 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		BB83711317FB537B00810261 /* fork & knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fork & knife.png"; sourceTree = "<group>"; };
@@ -127,8 +182,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBF6936417F21E16008B1A9F /* CoreGraphics.framework in Frameworks */,
+				BB663B5D183F634500EC814D /* AddressBook.framework in Frameworks */,
+				BB663B5E183F634500EC814D /* AddressBookUI.framework in Frameworks */,
+				BB663B5F183F634500EC814D /* CoreData.framework in Frameworks */,
+				BB663B60183F634500EC814D /* CoreTelephony.framework in Frameworks */,
+				BB663B61183F634500EC814D /* EventKit.framework in Frameworks */,
+				BB663B62183F634500EC814D /* EventKitUI.framework in Frameworks */,
+				BB663B56183F617100EC814D /* CoreLocation.framework in Frameworks */,
 				BBF6936617F21E16008B1A9F /* UIKit.framework in Frameworks */,
+				BB663B54183F616000EC814D /* MapKit.framework in Frameworks */,
+				BBF6936417F21E16008B1A9F /* CoreGraphics.framework in Frameworks */,
 				BBF6936217F21E16008B1A9F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +209,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB59D0BA183C04FE00A79E88 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				BB59D0C8183C053900A79E88 /* pic0.png */,
+				BB59D0BB183C053900A79E88 /* pic1.png */,
+				BB59D0BC183C053900A79E88 /* pic2.png */,
+				BB59D0BD183C053900A79E88 /* pic3.png */,
+				BB59D0BE183C053900A79E88 /* pic4.png */,
+				BB59D0BF183C053900A79E88 /* pic5.png */,
+				BB59D0C0183C053900A79E88 /* pic6.png */,
+				BB59D0C1183C053900A79E88 /* pic7.png */,
+				BB59D0C2183C053900A79E88 /* pic8.png */,
+				BB59D0C3183C053900A79E88 /* pic9.png */,
+				BB59D0C4183C053900A79E88 /* pic10.png */,
+				BB59D0C5183C053900A79E88 /* pic11.png */,
+				BB59D0C6183C053900A79E88 /* pic12.png */,
+				BB59D0C7183C053900A79E88 /* pic13.png */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
 		BBF6935517F21E16008B1A9F = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +252,14 @@
 		BBF6936017F21E16008B1A9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BB663B57183F634500EC814D /* AddressBook.framework */,
+				BB663B58183F634500EC814D /* AddressBookUI.framework */,
+				BB663B59183F634500EC814D /* CoreData.framework */,
+				BB663B5A183F634500EC814D /* CoreTelephony.framework */,
+				BB663B5B183F634500EC814D /* EventKit.framework */,
+				BB663B5C183F634500EC814D /* EventKitUI.framework */,
+				BB663B55183F617100EC814D /* CoreLocation.framework */,
+				BB663B53183F616000EC814D /* MapKit.framework */,
 				BBF6936117F21E16008B1A9F /* Foundation.framework */,
 				BBF6936317F21E16008B1A9F /* CoreGraphics.framework */,
 				BBF6936517F21E16008B1A9F /* UIKit.framework */,
@@ -179,12 +271,19 @@
 		BBF6936717F21E16008B1A9F /* IIThru */ = {
 			isa = PBXGroup;
 			children = (
+				BB59D0BA183C04FE00A79E88 /* Pictures */,
 				BBF6937017F21E16008B1A9F /* AppDelegate.h */,
 				BBF6937117F21E16008B1A9F /* AppDelegate.m */,
 				BB1BB1931818FFFA001F4A28 /* IIThru.xcdatamodeld */,
 				BB1BB19618190134001F4A28 /* Cart.h */,
 				BB1BB19718190134001F4A28 /* Cart.m */,
 				BBF6937317F21E16008B1A9F /* Main.storyboard */,
+				BB64B0701822E8E3003CF597 /* placesViewController.h */,
+				BB64B0711822E8E3003CF597 /* placesViewController.m */,
+				BB64B0771822ECC3003CF597 /* Restaurants.plist */,
+				BB64B0731822E95F003CF597 /* CustomAnnotation.h */,
+				BB64B0741822E95F003CF597 /* CustomAnnotation.m */,
+				BB64B0751822E95F003CF597 /* registerViewController.h */,
 				BBECB4921819AC29008D01DE /* QRCodeViewController.h */,
 				BBECB4931819AC29008D01DE /* QRCodeViewController.m */,
 				BB1BB1991819068E001F4A28 /* AccountViewController.h */,
@@ -197,6 +296,7 @@
 				BB83711A17FC01B900810261 /* RestaurantTypeCell.m */,
 				BBE751E417F4EDF600B19964 /* resturantTypeViewController.h */,
 				BBE751E517F4EDF600B19964 /* resturantTypeViewController.m */,
+				BB663B51183F4DD800EC814D /* kfc-coupons.png */,
 				BB8ADB5B17F414A600938638 /* Resturants.h */,
 				BB8ADB5C17F414A600938638 /* Resturants.m */,
 				BB8ADB5817F4130100938638 /* ResturantsViewController.h */,
@@ -336,21 +436,37 @@
 			files = (
 				BB83712117FC960500810261 /* User login.png in Resources */,
 				BB83711417FB537B00810261 /* fork & knife.png in Resources */,
+				BB663B52183F4DD800EC814D /* kfc-coupons.png in Resources */,
+				BB59D0CF183C053900A79E88 /* pic7.png in Resources */,
 				BB8ADB5717F4070300938638 /* IITHRU logo.png no fluff.png in Resources */,
 				BBF6937D17F21E16008B1A9F /* Images.xcassets in Resources */,
 				BB83711D17FC936E00810261 /* User_man_male_profile_account_person_people_human_card_add_login.png in Resources */,
+				BB59D0D3183C053900A79E88 /* pic11.png in Resources */,
+				BB59D0CE183C053900A79E88 /* pic6.png in Resources */,
+				BB59D0C9183C053900A79E88 /* pic1.png in Resources */,
 				BBE751E317F4E8A600B19964 /* 917b5fc29d8bac42945b5be96ca61f06.png in Resources */,
 				BB83712517FC97EC00810261 /* Dating.png in Resources */,
 				BBEFC622180498F400C36000 /* red_star.png in Resources */,
 				BBF6936C17F21E16008B1A9F /* InfoPlist.strings in Resources */,
 				BB83711F17FC943500810261 /* User.png in Resources */,
+				BB59D0CD183C053900A79E88 /* pic5.png in Resources */,
+				BB59D0D6183C053900A79E88 /* pic0.png in Resources */,
+				BB59D0CC183C053900A79E88 /* pic4.png in Resources */,
+				BB59D0CA183C053900A79E88 /* pic2.png in Resources */,
 				BB83711217FB537400810261 /* star.png in Resources */,
+				BB59D0CB183C053900A79E88 /* pic3.png in Resources */,
 				BBEFC624180498FE00C36000 /* whitestar.png in Resources */,
+				BB59D0D0183C053900A79E88 /* pic8.png in Resources */,
 				BB83712317FC96ED00810261 /* Hamburger.png in Resources */,
 				BB83711617FB538200810261 /* settings.png in Resources */,
 				BB83711017FB536D00810261 /* location.png in Resources */,
+				BB59D0D2183C053900A79E88 /* pic10.png in Resources */,
+				BB64B0781822ECC3003CF597 /* Restaurants.plist in Resources */,
+				BB59D0D5183C053900A79E88 /* pic13.png in Resources */,
 				BBEFC620180494AF00C36000 /* rsz_mcdonalds_stores_and_more_013.jpg in Resources */,
+				BB59D0D4183C053900A79E88 /* pic12.png in Resources */,
 				BB83711817FC011C00810261 /* restaurants icon_mcdonalds.png in Resources */,
+				BB59D0D1183C053900A79E88 /* pic9.png in Resources */,
 				BBF6937517F21E16008B1A9F /* Main.storyboard in Resources */,
 				BB1BB18F1818FAD6001F4A28 /* nigerian-foods-and-recipes.jpeg in Resources */,
 			);
@@ -379,6 +495,8 @@
 				BBECB4941819AC29008D01DE /* QRCodeViewController.m in Sources */,
 				BBEFC62718049EC000C36000 /* MapViewController.m in Sources */,
 				BBE751E617F4EDF600B19964 /* resturantTypeViewController.m in Sources */,
+				BB64B0721822E8E3003CF597 /* placesViewController.m in Sources */,
+				BB64B0761822E95F003CF597 /* CustomAnnotation.m in Sources */,
 				BB1BB1921818FCEC001F4A28 /* FoodDescriptionViewController.m in Sources */,
 				BBF6937217F21E16008B1A9F /* AppDelegate.m in Sources */,
 				BBF6937817F21E16008B1A9F /* FirstViewController.m in Sources */,

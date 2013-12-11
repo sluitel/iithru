@@ -13,5 +13,6 @@
 @interface ResturantsViewController : UICollectionViewController
 @property NSMutableArray *resturantNamesArray;
 @property int numberOfResturants;
+@property (strong, nonatomic) NSMutableArray *restaurantPictures;
 
 @end
